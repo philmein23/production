@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-const BaseKit = new React.createClass({
+const BaseKit = React.createClass({
   render: function() {
     return (
       <section>
@@ -70,4 +70,4 @@ const BaseKit = new React.createClass({
   }
 });
 
-module.exports = BaseKit;
+export default BaseKit;

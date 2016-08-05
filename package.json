@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test",
-    "start": "node index.js"
+    "start": "webpack-dev-server",
+    "production": "webpack - p"
   },
   "repository": {
     "type": "git",
@@ -43,19 +44,26 @@
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-stage-3": "^6.11.0",
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
+    "css-loader": "^0.23.1",
     "eslint-plugin-react": "^5.2.2",
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
+    "html-webpack-plugin": "^2.22.0",
     "mocha": "^2.4.5",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
+    "react-forms": "^2.0.0-beta33",
     "react-router": "^2.5.1",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
     "webpack-stream": "^3.2.0"
   }
 }

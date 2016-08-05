@@ -1,7 +1,7 @@
-const React = require('react');
-const Link = require('react-router').Link;
+import React from 'react';
+import { Link } from 'react-router';
 
-const Landing = new React.createClass({
+const Landing = React.createClass({
   render: function() {
     return (
       <section className="main-container">
@@ -12,4 +12,4 @@ const Landing = new React.createClass({
   }
 });
 
-module.exports = Landing;
+export default Landing;

@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-const Register = new React.createClass({
+const Register = React.createClass({
   render: function() {
     return (
       <form>
@@ -22,4 +22,4 @@ const Register = new React.createClass({
   }
 });
 
-module.exports = Register;
+export default Register;

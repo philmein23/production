@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-const Login = new React.createClass({
+const Login = React.createClass({
   render: function() {
     return (
       <form>
@@ -14,4 +14,4 @@ const Login = new React.createClass({
   }
 });
 
-module.exports = Login;
+export default Login;
