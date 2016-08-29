@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 var styles = {
     background: {
         backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
         backgroundImage: "url('app/img/gloomy.jpeg')",
         height: '100%',
         width: '100%'
@@ -25,8 +26,8 @@ var styles = {
     }
 }
 
-const Main = React.createClass({
-  render: function() {
+class Main extends Component {
+  render() {
     return (
       <div style={styles.background}>
         <div style={styles.container}>
@@ -37,6 +38,6 @@ const Main = React.createClass({
       </div>
     );
   }
-});
+};
 
 export default Main;

@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const BaseKit = React.createClass({
-  render: function() {
+function BaseKit() {
     return (
       <section>
         <h2>Emergency Kit</h2>
@@ -67,7 +66,6 @@ const BaseKit = React.createClass({
         </div>
       </section>
     );
-  }
-});
+};
 
 export default BaseKit;

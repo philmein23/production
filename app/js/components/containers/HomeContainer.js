@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Home from '../views/Home';
 
 
-const HomeContainer = React.createClass({
+class HomeContainer extends Component {
   render() {
     return <Home />;
   }
-});
+};
 
 export default HomeContainer;
